@@ -80,7 +80,12 @@ select * from DETAILS where manager not in("deepak");
 select * from DETAILS limit 2;
 select * from DETAILS order by Turnover asc limit 3; 
 select * from DETAILS order by Turnover desc limit 3;
-select Workers from DETAILS order by Workers desc limit 1 offset 1;
+select * from DETAILS order by Workers desc limit 1 offset 1;
+select * from DETAILS order by Workers desc limit 2 offset 1;
+select * from DETAILS ;
+select * from DETAILS order by servants asc limit 3 offset 2;
+select * from DETAILS order by servants desc limit 1 offset 3;
+
 
 
 
